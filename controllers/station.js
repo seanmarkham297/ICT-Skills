@@ -15,7 +15,10 @@ const station = {
 
       station.minTemp = maxmin.getMinTemp(station)
       station.maxTemp = maxmin.getMaxTemp(station)
-
+      station.minPressure = maxmin.getMinPressure(station)
+      station.maxPressure = maxmin.getMaxPressure(station)
+      station.minWindSpeed = maxmin.getMinWindSpeed(station)
+      station.maxWindSpeed = maxmin.getMaxWindSpeed(station)
 
       station.latestPressure = stationAnalytics.getPressure(station)
       station.latestFarenheit = stationAnalytics.getFarenheit(station)

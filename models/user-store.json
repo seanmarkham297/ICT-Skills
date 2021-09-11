@@ -20,6 +20,20 @@
       "email": "123@GMAIL.COM",
       "password": "SECRET",
       "id": "243abbf0-1169-11ec-9e01-c13dfe2071cf"
+    },
+    {
+      "firstName": "HERE",
+      "lastName": "NOW",
+      "email": "1234",
+      "password": "1234",
+      "id": "0b1203e0-12ea-11ec-92c9-437923451bca"
+    },
+    {
+      "firstName": "Sean",
+      "lastName": "Markham",
+      "email": "12345@wit.ie",
+      "password": "sean",
+      "id": "86f68f10-12ec-11ec-9c00-1748010a9170"
     }
   ]
 }

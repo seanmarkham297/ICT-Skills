@@ -49,16 +49,35 @@
           "windspeed": "2",
           "windDirection": "100",
           "pressure": "1006"
+        },
+        {
+          "code": "600",
+          "temp": "12",
+          "windspeed": "34",
+          "windDirection": "90",
+          "pressure": "1100"
+        },
+        {
+          "code": "800",
+          "temp": "34",
+          "windspeed": "40",
+          "windDirection": "110",
+          "pressure": "1200"
         }
       ],
-      "latestTemp": "8",
-      "latestPressure": "1002",
-      "latestFarenheit": 46.4,
+      "latestTemp": "34",
+      "latestPressure": "1200",
+      "latestFarenheit": 93.2,
       "latestWindSpeed": 1,
-      "codeNum": "Partial Clouds",
-      "latestWindCompass": "South South West",
-      "windChill": 9.89,
-      "minTemp": "8.0"
+      "codeNum": "Thunder",
+      "latestWindCompass": "North",
+      "windChill": 36.36,
+      "minTemp": "0.5",
+      "maxTemp": "34",
+      "minPressure": "19",
+      "maxPressure": "1200",
+      "minWindSpeed": "1.0",
+      "maxWindSpeed": "40"
     },
     {
       "id": "04",
@@ -115,6 +134,52 @@
         }
       ],
       "id": "ab2af320-108b-11ec-b6ed-83c46a2ce193"
+    },
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "HERE",
+      "readings": [],
+      "id": "86239660-12e6-11ec-aea3-752991ea01af"
+    },
+    {
+      "userid": "86f68f10-12ec-11ec-9c00-1748010a9170",
+      "title": "WIT COURSE",
+      "readings": [],
+      "id": "d1447870-12ec-11ec-9c00-1748010a9170"
+    },
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "SEAN MARKHAM",
+      "readings": [
+        {
+          "code": "200",
+          "temp": "50",
+          "windspeed": "20",
+          "windDirection": "100",
+          "pressure": "1100"
+        },
+        {
+          "code": "400",
+          "temp": "20",
+          "windspeed": "10",
+          "windDirection": "50",
+          "pressure": "999"
+        }
+      ],
+      "id": "70725420-12ee-11ec-9c00-1748010a9170",
+      "latestTemp": "50",
+      "minTemp": "50",
+      "maxTemp": "50",
+      "minPressure": "1100",
+      "maxPressure": "1100",
+      "minWindSpeed": "20",
+      "maxWindSpeed": "20",
+      "latestPressure": "1100",
+      "latestFarenheit": "50",
+      "latestWindSpeed": 1,
+      "codeNum": "Partial Clouds",
+      "latestWindCompass": "South South West",
+      "windChill": 52.65
     }
   ]
 }
