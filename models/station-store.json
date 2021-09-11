@@ -35,15 +35,30 @@
           "windspeed": "9",
           "windDirection": "10",
           "pressure": "19"
+        },
+        {
+          "code": "200",
+          "temp": "8",
+          "windspeed": "3",
+          "windDirection": "100",
+          "pressure": "1002"
+        },
+        {
+          "code": "400",
+          "temp": "1",
+          "windspeed": "2",
+          "windDirection": "100",
+          "pressure": "1006"
         }
       ],
       "latestTemp": "8",
-      "latestPressure": "19",
+      "latestPressure": "1002",
       "latestFarenheit": 46.4,
       "latestWindSpeed": 1,
-      "codeNum": "Not Defined",
-      "latestWindCompass": "North North East",
-      "windChill": 9.89
+      "codeNum": "Partial Clouds",
+      "latestWindCompass": "South South West",
+      "windChill": 9.89,
+      "minTemp": "8.0"
     },
     {
       "id": "04",
@@ -90,7 +105,15 @@
     },
     {
       "title": "TESTING",
-      "readings": [],
+      "readings": [
+        {
+          "code": "400",
+          "temp": "8",
+          "windspeed": "22",
+          "windDirection": "200",
+          "pressure": "1001"
+        }
+      ],
       "id": "ab2af320-108b-11ec-b6ed-83c46a2ce193"
     }
   ]

@@ -30,7 +30,8 @@
             <h2 class="header">Temp</h2>
             <h3 class="header">{{station.latestTemp}} C</h3>
             <h3 class="header">{{station.latestFarenheit}} F</h3>
-            <h3 class="header">Min: {{minTemp.temp}}</h3>
+            <h3 class="header">Max: {{station.maxTemp}}</h3>
+            <h3 class="header">Min: {{station.minTemp}}</h3>
           </div>
         </div>
         <div class="card">
@@ -53,7 +54,7 @@
     </section>
 
   {{> listreadings}}
-  <form class="ui stacked segment form" action="/station/{{station.title}}/addreading" method="POST">
+  <form class="ui stacked segment form" action="/station/{{station.id}}/addreading" method="POST">
     <div class="five fields">
       <div class="field">
         <label>Code</label>
